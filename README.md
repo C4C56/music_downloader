@@ -4,7 +4,7 @@ used for music download
 KuGou music crawler 
 
 可选参数
---search_type {music,singer}       default=music
+--search_type {music,singer}       default='music'
 --page                             default='ALL'
 --index                            default='ALL'
 --quality {normal,high,best}       default='normal'
