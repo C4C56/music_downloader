@@ -12,7 +12,7 @@ class MusicDownloader(object):
         self.page = page
         self.index = index
         self.quality = quality
-        self.store_folder = store_folder
+        self.store_folder = store_folder + '/'
 
     @staticmethod
     def get_download_url_by_quality(quality, hash_dict):
